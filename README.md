@@ -30,6 +30,15 @@ Focused on:
 - test results
 - patient-level monitoring and operational behavior
 
+## Key Highlights
+
+- 54,860 admissions analyzed
+- 54,855 unique patients
+- 1.40B total billing amount
+- 15.5 average length of stay
+- 32.94% emergency admissions
+
+
 ## Project Overview
 
 This project analyzes a healthcare-style hospital admissions dataset to answer two main questions:
@@ -288,5 +297,6 @@ It is intended to demonstrate both technical execution and business-oriented thi
 - The dataset is synthetic and used for portfolio purposes.
 - SQL was intentionally prioritized over Python for business analysis.
 - The final Power BI dataset includes a deduplication rule to improve reporting consistency.
-#   H e a l t h c a r e - A n a l y s i s  
+#   H e a l t h c a r e - A n a l y s i s 
+ 
  
