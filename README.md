@@ -82,24 +82,24 @@ Build a portfolio-ready healthcare analytics project that:
 
 ```text
 Healthcare-analysis/
-├── data/
-│   ├── raw/
-│   │   └── healthcare_dataset.csv
-│   └── processed/
-│       ├── clean_admissions_powerbi.csv
-│       ├── load_data.py
-│       ├── results_analysis.txt
-│       └── results_kpis.txt
-├── database/
-│   └── health.db
-├── notebooks/
-│   └── eda.ipynb
-├── sql/
-│   ├── 01_data_cleaning.sql
-│   ├── 02_kpis.sql
-│   ├── 03_analysis.sql
-│   └── 04_powerbi_export.sql
-└── README.md
+|-- data/
+|   |-- raw/
+|   |   `-- healthcare_dataset.csv
+|   `-- processed/
+|       |-- clean_admissions_powerbi.csv
+|       |-- load_data.py
+|       |-- results_analysis.txt
+|       `-- results_kpis.txt
+|-- database/
+|   `-- health.db
+|-- notebooks/
+|   `-- eda.ipynb
+|-- sql/
+|   |-- 01_data_cleaning.sql
+|   |-- 02_kpis.sql
+|   |-- 03_analysis.sql
+|   `-- 04_powerbi_export.sql
+`-- README.md
 ```
 
 ## What Was Done With Each Tool
@@ -297,6 +297,3 @@ It is intended to demonstrate both technical execution and business-oriented thi
 - The dataset is synthetic and used for portfolio purposes.
 - SQL was intentionally prioritized over Python for business analysis.
 - The final Power BI dataset includes a deduplication rule to improve reporting consistency.
-#   H e a l t h c a r e - A n a l y s i s 
- 
- 
